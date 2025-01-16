@@ -4,8 +4,7 @@ const https = require('https');
 
 // List of JSON manifest URLs:
 const manifestUrls = [
-    'https://raw.githubusercontent.com/Zaarrg/stremio-desktop-v5/refs/heads/webview-windows/utils/scoop/stremio-desktop-v5.json'
-
+    'https://raw.githubusercontent.com/Zaarrg/stremio-desktop-v5/webview-windows/utils/scoop/stremio-desktop-v5.json'
 ];
 
 function downloadFile(url, destPath) {
